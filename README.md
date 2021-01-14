@@ -1,4 +1,5 @@
-# VUTTR - Very Usefuls Tools To Remember << Ferramentas importantes de se lembrar >>
+# VUTTR - Very Usefuls Tools To Remember 
+# Ferramentas importantes de se lembrar
 	
 ## Objetivo
  A tarefa é construir uma API e banco de dados para a aplicação *VUTTR* (Very Useful Tools to Remember). 
@@ -27,8 +28,10 @@
 ```
 
 ### Iniciar o projeto: 
-* Para iniciar o projecto basta clonar ou fazer o download*
-* Em seguida acessar terminal * cd /downloads*
+* Para iniciar o projecto basta clonar ou fazer o download do arquivo no repositorio*
+* Em seguida acessar terminal para descompactar o nosso arquivo
+			      * cd /downloads*
 			      * cd /VUTTR*
-			      * em seguida faz um "sudo npm install" ou "sudo yarn install" 
+			      * Em seguida faz um "sudo npm install" 
+			      * sudo yarn install*
 * use o camando *yarn start* ou *npm start*
