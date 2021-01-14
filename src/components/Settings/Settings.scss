@@ -1,0 +1,37 @@
+.Settings {
+	margin: 8% 3% auto auto;
+	position: relative;
+	display: inline-block;
+	height: 0;
+
+	
+	&_content {
+		display: none;
+		position: absolute;
+		z-index: 1;
+		min-width: 70px;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.432);
+		right: 10%;
+		text-align: center;
+		justify-content: center;
+
+		& button:hover {background-color: #ddd;}
+	}
+	& button {
+		color: black;
+		padding: 8px 10px;
+		border: none;
+		display: block;
+		font-size: 10px;
+		width: 100%;
+		white-space: nowrap;
+		background-color: rgb(250, 240, 226);
+		cursor: pointer;
+	}
+	
+	& img {
+		width: 18px;
+	}
+}
+
+.Settings:hover .Settings_content {display: block;}

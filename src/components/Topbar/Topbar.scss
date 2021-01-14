@@ -1,0 +1,27 @@
+.Header {
+	opacity: 1;
+	display: flex;
+	padding-top: 50px;
+	z-index: 0;
+	margin-left: 1%;
+
+	@media screen and (min-width: 100vh) {
+		width: 48vmax;
+	}
+
+	&--title {
+		font-size: 32px;
+		margin-bottom: 0;
+		color: #170C3A;
+		width: 90%;
+		z-index: 0;
+		
+	}
+	&--title span {
+		left: auto;
+	}
+	&--title p {
+		font-size: 20px;
+		white-space: nowrap;
+	}
+}
